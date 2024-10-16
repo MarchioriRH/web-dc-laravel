@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Charlas en escuelas",
+        "subtitle": "Mayo 2024",
+        "image": "notice_1_may24_fulton.png"
+    },
+    {
+        "id": 2,
+        "title": "Curso de SCI",
+        "subtitle": "Abril 2024",
+        "image": "notice_2_26abr24_SCI_Bahia.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Programa de Fortalecimiento de las Defensas Civiles",
+        "subtitle": "Abril 2024",
+        "image": "notice_3_abr24_presentacion_programa_fortalecimiento.jpeg"
+    }
+]

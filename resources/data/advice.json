@@ -3,36 +3,42 @@
         "id": "adviceModalTormentasFuertes",
         "image": "images/advice/1.png",
         "heading": "Tormentas fuertes",
-        "subheading": "¿Que hacer?"
+        "subheading": "¿Que hacer?",
+        "modalImage":"images/advice/1.1.jpg"
     },
     {
         "id": "adviceModalMonoxido",
         "image": "images/advice/2.png",
         "heading": "Monoxido de Carbono",
-        "subheading": "¿Que hacer?"
+        "subheading": "¿Que hacer?",
+        "modalImage": "images/advice/2.1.jpg"
     },
     {
         "id": "adviceModalOlasCalor",
         "image": "images/advice/3.png",
         "heading": "Olas de calor",
-        "subheading": "¿Que hacer?"
+        "subheading": "¿Que hacer?",
+        "modalImage": "images/advice/3.1.jpg"
     },
     {
         "id": "adviceModalPrevIncendios",
         "image": "images/advice/4.png",
         "heading": "Prevencion de incendios en casa",
-        "subheading": "¿Que hacer?"
+        "subheading": "¿Que hacer?",
+        "modalImage": "images/advice/4.1.jpg"
     },
     {
         "id": "adviceModalTormentas",
         "image": "images/advice/5.png",
         "heading": "Tormentas electricas",
-        "subheading": "¿Que hacer?"
+        "subheading": "¿Que hacer?",
+        "modalImage": "images/advice/5.1.jpg"
     },
     {
         "id": "adviceModalAlerta",
         "image": "images/advice/6.png",
         "heading": "Alerta meteorologico",
-        "subheading": "¿Que hacer?"
+        "subheading": "¿Que hacer?",
+        "modalImage": "images/advice/6.1.jpg"
     }
 ]

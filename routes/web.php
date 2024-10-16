@@ -1,10 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AdviceController;
+use App\Http\Controllers\DesktopController;
 
 // Route::get('/home', function () {
 //     return view('welcome');
 // });
 
-Route::get('/home', [AdviceController::class, 'index']);
+Route::get('/home', [DesktopController::class, 'index']);
