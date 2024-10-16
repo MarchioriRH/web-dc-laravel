@@ -17,7 +17,8 @@
 </div>
 <div class="row">
     @foreach ($advices as $advice)
-        <div class="col-lg-4 col-sm-6 mb-4">
+    <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="advice">
             <div class="advice-item">
                 <a class="advice-link" data-bs-toggle="modal" href="#adviceModal{{ $advice['id'] }}">
                     <div class="advice-hover">
@@ -32,6 +33,7 @@
                     <div class="advice-caption-subheading text-muted">{{ $advice['subheading'] }}</div>
                 </div>
             </div>
+        </div>
         </div>
         @include('modal.modals', ['advice' => $advice])
     @endforeach

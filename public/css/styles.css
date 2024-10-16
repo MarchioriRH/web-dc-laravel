@@ -11207,10 +11207,8 @@ header.masthead .masthead-heading {
   margin: 0 auto;
 }
 #advice .advice-item .advice-link .advice-hover, #notices .notices-item .notices-link .notices-hover  {
-  display: relative;
-  position: inline-block;
-  top: 0;
-  left: 0;
+  display: flex;
+  position: absolute;
   width: 100%;
   height: 100%;
   background: rgba(255, 200, 0, 0.9);
