@@ -23,11 +23,11 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/styles.css') }}" />
 </head>
 
-<body id="page-top">    
+<body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div>
-            <a class="navbar-brand" href="#page-top"><img src="{{ asset('images/dc-logo.png') }}" alt="..." /></a>
+            <a class="navbar-brand" href="home"><img src="{{ asset('images/dc-logo.png') }}" alt="..." /></a>
         </div>
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
@@ -37,17 +37,29 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0" id="navbar-list-ul">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#el-tiempo">El tiempo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#noticias">Noticias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#consejos">Consejos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#que-hace-la-dc">¿Que hace la DC?</a>
+                    <li class="nav-item dropdown links-dropdown-list">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Secciones
+                        </a>
+                        <ul class="dropdown-menu text-uppercase ms-auto py-4 py-lg-0 links-dropdown">
+                            <li>
+                                <a class="dropdown-item text-uppercase ms-auto py-4 py-lg-0"
+                                    href="#el-tiempo">El tiempo</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase ms-auto py-4 py-lg-0"
+                                    href="#noticias">Noticias</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase ms-auto py-4 py-lg-0"
+                                    href="#consejos">Consejos</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase ms-auto py-4 py-lg-0"
+                                    href="#que-hace-la-dc">¿Que hace la DC?</a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item dropdown links-dropdown-list">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -74,7 +86,7 @@
                         </ul>
                     </li>
                     <li class="nav-item" id="login-btn">
-                        <a class="nav-link" data-bs-toggle="modal" href="#loginModal">Iniciar sesion</a>
+                        <a class="nav-link" data-bs-toggle="modal" href="{{ route('contact.show') }}">Contacto</a>
                     </li>
                 </ul>
             </div>

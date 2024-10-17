@@ -137,8 +137,6 @@
     <!-- Local scripts -->
     @vite('resources/js/scripts.js')
 
-    <script src="js/modals.js"></script>
-    <!-- <script type="module" src="js/control_panel.js"></script> -->
 </body>
 
 </html>
