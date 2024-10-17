@@ -17,24 +17,20 @@
 </div>
 <div class="row">
     @foreach ($advices as $advice)
-    <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="advice">
-            <div class="advice-item">
-                <a class="advice-link" data-bs-toggle="modal" href="#adviceModal{{ $advice['id'] }}">
-                    <div class="advice-hover">
-                        <div class="advice-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
+        <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="advice">
+                    <div class="advice-item">
+                        <a class="advice-link" data-bs-toggle="modal" href="#adviceModal{{ $advice['id'] }}">
+                        
+                            <img class="img-fluid" src="{{ asset($advice['image']) }}" alt="..." />
+                        </a>
+                        <div class="advice-caption text-center">
+                            <div class="advice-caption-heading">{{ $advice['heading'] }}</div>
+                            <div class="advice-caption-subheading text-muted">{{ $advice['subheading'] }}</div>
                         </div>
                     </div>
-                    <img class="img-fluid" src="{{ asset($advice['image']) }}" alt="..." />
-                </a>
-                <div class="advice-caption text-center">
-                    <div class="advice-caption-heading">{{ $advice['heading'] }}</div>
-                    <div class="advice-caption-subheading text-muted">{{ $advice['subheading'] }}</div>
                 </div>
-            </div>
         </div>
-        </div>
-        @include('modal.modals', ['advice' => $advice])
+        @include('modal.advice', ['advice' => $advice])
     @endforeach
 </div>

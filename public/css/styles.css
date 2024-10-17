@@ -11203,11 +11203,11 @@ header.masthead .masthead-heading {
 }
 #advice .advice-item .advice-link, #notices .notices-item .notices-link {
   position: relative;
-  display: block;
+  display: inline-block;
   margin: 0 auto;
 }
 #advice .advice-item .advice-link .advice-hover, #notices .notices-item .notices-link .notices-hover  {
-  display: flex;
+  /* display: flex;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -11215,7 +11215,30 @@ header.masthead .masthead-heading {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity ease-in-out 0.25s;
+  transition: opacity ease-in-out 0.25s; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 50%;
+  transition: opacity 0.3s;
+}
+
+.notices-item img, .advice-item img {
+  transition: transform 0.3s ease;
+}
+
+.notices-item:hover img, .advice-item:hover img {
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen al hacer hover */
+}
+
+.notices-item:hover .notices-hover {
+  opacity: 1;
 }
 
 #notices .notices-item .notices-link .notices-hover {
