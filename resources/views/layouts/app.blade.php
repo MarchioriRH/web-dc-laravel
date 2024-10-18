@@ -85,16 +85,16 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item" id="login-btn">
-                        <a class="nav-link" data-bs-toggle="modal" href="{{ route('contact.show') }}">Contacto</a>
+                    <li class="nav-item" id="contact">
+                        <a class="nav-link" data-bs-toggle="modal" href="#contactModal">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <main>
         @yield('content')
+        @include('modal.contact')
     </main>
 </body>
 </html>
