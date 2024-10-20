@@ -10,33 +10,35 @@
     </header>
 
     <!-- Weather-->
-    <section class="page-section weather-info" id="el-tiempo">
-        @include('components.weather')
+    <section class="page-section weather-info bg-white" id="el-tiempo">
+        <div class="container">
+            @include('components.weather')
+        </div>
     </section>
 
     <!-- Notices-->
-    <section class="page-section bg-light" id="noticias">
+    <section class="page-section" id="noticias">
         <div class="container">
             @include('components.notices')
         </div>
     </section>
 
     <!-- Advices -->
-    <section class="page-section" id="consejos">
+    <section class="page-section bg-white" id="consejos">
         <div class="container">
             @include('components.advices')
         </div>
     </section>
 
     <!-- History-->
-    <section class="page-section bg-light" id="que-hace-la-dc">
+    <section class="page-section" id="que-hace-la-dc">
         <div class="container">
             @include('components.history')
         </div>
     </section>
 
     <!-- Partners-->
-    <section class="py-5" id="partners">
+    <section class="py-5 bg-white" id="partners">
         @include('components.partners')
     </section>
 
@@ -45,10 +47,10 @@
 
     {{-- @include('modal.modals') --}}
     <!-- Dinamic modals container -->
-    <div id="modals-container"></div>
+    {{-- <div id="modals-container"></div> --}}
 
     <!-- Footer-->
-    <footer class="footer py-4 bg-light">
+    <footer class="footer py-4">
         <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">

@@ -16,7 +16,8 @@ class ContactController extends Controller
     {
         //dd($request->all());
         $request->validate([
-            'name' => 'required',
+            'firstName' => 'required',
+            'lastName' => 'required',
             'phone' => 'required|numeric',
             'email' => 'required|email',
             'subject' => 'required',
@@ -24,7 +25,8 @@ class ContactController extends Controller
         ]);
 
         $data = [
-            'name' => $request->name,
+            'firstName' => $request->firstName,
+            'lastName' => $request->lastName,
             'email' => $request->email,
             'message' => $request->message,
             'phone' => $request->phone,
