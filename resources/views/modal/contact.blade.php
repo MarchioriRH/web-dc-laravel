@@ -22,11 +22,11 @@
                                             </figure>
                                             <ul
                                                 class="contact-info__list list-style--none position-relative z-index-101">
-                                                <li class="mb-4 pl-4">
+                                                {{-- <li class="mb-4 pl-4">
                                                     <h4> Emergencias
                                                         <br> 103
                                                     </h4>
-                                                </li>
+                                                </li> --}}
                                                 <li class="mb-4 pl-4">
                                                     <span class="position-absolute"><i
                                                             class="fas fa-envelope"></i></span>
@@ -49,14 +49,32 @@
                                                             class="text-link link--right-icon text-white">¿Como llegar?
                                                             <i class="link__icon fa fa-directions"></i></a>
                                                     </div>
+                                                    <div class="col-lg-6 my-3 my-lg-5 media-links">
+                                                        <a class="btn btn-light btn-social mx-2"
+                                                            href="https://twitter.com/messages/compose?recipient_id=DC_Tandil&ref_src=twsrc%5Etfw"
+                                                            class="twitter-dm-button" data-screen-name="DC_Tandil" data-show-count="false">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                                                            </svg>
+                                                        </a>
+                                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                                        <a class="btn btn-light btn-social mx-2"
+                                                            href="https://www.facebook.com/DireccionDefensaCivilTandil?mibextid=ZbWKwL"
+                                                            aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                                        <a class="btn btn-light btn-social mx-2" href="detandil" aria-label="Instagram"><i
+                                                                class="fa-brands fa-instagram"></i></a>
+                                                    </div>
                                                 </li>
                                             </ul>
                                         </div>
 
                                         <div class="col-lg-7 contact-form__wrapper p-5 order-lg-1">
-                                            <form action="#" class="contact-form form-validate"
-                                                novalidate="novalidate">
+                                            <form action="{{route('contact.submit')}}" method="POST" class="contact-form form-validate" novalidate="novalidate">
+                                                @csrf
                                                 <div class="row">
+                                                    <div class="mb-4 pl-4">
+                                                        <h4>Para emergencias comunicarse al 103</h4>
+                                                    </div>
                                                     <div class="col-sm-6 mb-3">
                                                         <div class="form-group">
                                                             <label class="required-field" for="firstName">Nombre</label>
