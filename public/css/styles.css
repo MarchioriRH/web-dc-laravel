@@ -11619,3 +11619,10 @@ body{
 .shadow-lg, .shadow-lg--on-hover:hover {
     box-shadow: 0 1rem 3rem rgba(132,138,163,0.1) !important;
 }
+
+
+/****** WAHT DO SECTION ********/
+.icon-box {
+  margin-bottom: 70px;
+  display:block;
+}
