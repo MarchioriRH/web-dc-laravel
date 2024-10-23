@@ -100,5 +100,26 @@
         @yield('content')
         @include('modal.contact')
     </main>
+
+     <!-- Scroll to top -->
+     <a class="scrollup" href="#page-top"><i class="fas fa-angle-up"></i></a>
+
+     <!-- Scripts -->
+     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+     <!-- Bootstrap core JS-->
+ 
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+ 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+         AOS.init();
+       </script>
+     <!-- Local scripts -->
+ 
+     @vite('resources/js/scripts.js')
+ 
 </body>
 </html>
