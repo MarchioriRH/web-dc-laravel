@@ -10,7 +10,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="modal-body">
-                            <img class="img-fluid d-block mx-auto" src={{ asset($advice['modalImage'])}} alt="..." />
+                            <img class="img-fluid img-advice d-block mx-auto" src={{ asset($advice['modalImage'])}} alt="..." />
                             <button class="btn btn-primary btn-l text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i class="fas fa-xmark me-1"></i>
                                 Cerrar

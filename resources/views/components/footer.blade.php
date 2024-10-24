@@ -62,7 +62,11 @@
             <div class="col-lg-6 my-3 my-lg-0 media-links">
                 <a class="btn btn-dark btn-social mx-2"
                     href="https://twitter.com/messages/compose?recipient_id=DC_Tandil&ref_src=twsrc%5Etfw"
-                    class="twitter-dm-button" data-screen-name="DC_Tandil" data-show-count="false">X</a>
+                    class="twitter-dm-button" data-screen-name="DC_Tandil" data-show-count="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                    </svg>
+                </a>
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 <a class="btn btn-dark btn-social mx-2"
                     href="https://www.facebook.com/DireccionDefensaCivilTandil?mibextid=ZbWKwL"
@@ -72,4 +76,4 @@
             </div>
         </div>
     </div>
-</footer> 
+</footer>

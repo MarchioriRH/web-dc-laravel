@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
+    <!-- Navigation-->
+    @include('components.navbar')
 
     <!-- Masthead-->
     <header class="masthead">
@@ -30,10 +32,10 @@
         </div>
     </section>
 
-    <!-- History-->
+    <!-- What does DC-->
     <section class="page-section" id="que-hace-la-dc">
         <div class="container">
-            @include('components.history')
+            @include('components.what-does-dc')
         </div>
     </section>
 
@@ -54,5 +56,4 @@
     <!-- Dinamic modals container -->
     <div id="modals-container"></div>
 
-    
 @endsection

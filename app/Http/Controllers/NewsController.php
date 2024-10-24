@@ -18,4 +18,20 @@ class NewsController extends Controller
     {
         return view('news.create');
     }
+
+    public function store(Request $request)
+    {
+        $validatedData = $request->validate([
+            'title' => 'required|max:255',
+            'subtitle' => 'required|max:255',
+            'image' => 'required|max:255',
+            'content' => 'required',
+        ]);
+
+
+        News::create($validatedData);
+
+        return redirect()->route('news.create')
+            ->with('success', 'News created successfully.');
+    }
 }

@@ -21,8 +21,8 @@
                 <div class="advice">
                     <div class="advice-item">
                         <a class="advice-link" data-bs-toggle="modal" href="#adviceModal{{ $advice['id'] }}">
-                        
-                            <img class="img-fluid" src="{{ asset($advice['image']) }}" alt="..." />
+
+                            <img class="img-fluid" src="{{ asset($advice['image']) }}" alt="..." style="margin: 0 auto; display: block;"/>
                         </a>
                         <div class="advice-caption text-center">
                             <div class="advice-caption-heading">{{ $advice['heading'] }}</div>

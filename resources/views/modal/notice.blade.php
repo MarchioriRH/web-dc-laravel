@@ -11,7 +11,7 @@
                     <div class="col-lg-10">
                         <div class="modal-body">
                             <img class="img-fluid d-block mx-auto" src={{ asset('images/notices/' . $notice['image'])}} alt="..." />
-                            <div class="row">{!! $notice['description'] !!}</div>
+                            <div class="row">{!! $notice['content'] !!}</div>
                             <button class="btn btn-primary btn-l text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i class="fas fa-xmark me-1"></i>
                                 Cerrar

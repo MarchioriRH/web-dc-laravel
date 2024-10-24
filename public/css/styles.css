@@ -752,8 +752,12 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
-  background-size: cover;
+  height: 300px;
+  object-fit: cover;
+}
+
+.img-advice {
+    height: auto;
 }
 
 .img-thumbnail {
@@ -7814,6 +7818,14 @@ textarea.form-control-lg {
   margin-top: 3rem !important;
 }
 
+.mt-6 {
+    margin-top: 6rem !important;
+}
+
+.mt-10 {
+    margin-top: 10rem !important;
+}
+
 .mt-auto {
   margin-top: auto !important;
 }
@@ -11162,7 +11174,7 @@ header.masthead {
   background-image: url("../images/tandil-bg.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  /* background-position: center center; */
   background-size: cover;
 }
 header.masthead .masthead-subheading {
