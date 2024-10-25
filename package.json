@@ -16,6 +16,7 @@
     },
     "dependencies": {
         "bootstrap-icons": "^1.11.3",
+        "cloudflared": "^0.5.3",
         "laravel-vite": "^0.0.24"
     }
 }

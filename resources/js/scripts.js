@@ -72,13 +72,56 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // Carousel
-    if (document.body.querySelector('#adviceCarousel')) {
-        let myCarouselElement = document.querySelector('#adviceCarousel');
-        const carousel = new bootstrap.Carousel(myCarouselElement, {
-            interval: 3000,
-            touch: false
+    // if (document.body.querySelector('#adviceCarousel')) {
+    //     let myCarouselElement = document.querySelector('#adviceCarousel');
+    //     const carousel = new bootstrap.Carousel(myCarouselElement, {
+    //         interval: 3000,
+    //         touch: false
+    //     });
+    // }
+
+    let items = document.querySelectorAll('.carousel .carousel-item')
+
+    items.forEach((el) => {
+        const minPerSlide = 3
+        let next = el.nextElementSibling
+        for (var i=1; i<minPerSlide; i++) {
+            if (!next) {
+                // wrap carousel by using first child
+                next = items[0]
+            }
+            let cloneChild = next.cloneNode(true)
+            el.appendChild(cloneChild.children[0])
+            next = next.nextElementSibling
+        }
+    })
+
+
+    const carousel = new bootstrap.Carousel(document.querySelector('#recipeCarousel'));
+
+    document.querySelectorAll('.advice-link').forEach(link => {
+        link.addEventListener('click', (event) => {
+            carousel.pause();
+            const adviceModal = document.querySelector('#adviceModal');
+            const adviceModalLabel = adviceModal.querySelector('.modal-title');
+            const adviceModalImage = adviceModal.querySelector('#adviceModalImage');
+
+            const heading = event.currentTarget.getAttribute('data-heading');
+            const subheading = event.currentTarget.getAttribute('data-subheading');
+            const image = event.currentTarget.getAttribute('data-image');
+
+            console.log(heading, " ", subheading, " ", image);
+
+            adviceModalLabel.textContent = heading;
+            adviceModalImage.src = image;
         });
-    }
+    });
+
+    document.querySelectorAll('.modal').forEach(modal => {
+        modal.addEventListener('hidden.bs.modal', () => {
+            carousel.cycle();
+        });
+    });
 
 
 });

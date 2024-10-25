@@ -22,4 +22,21 @@
         </div>
     </div>
 </div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const carousel = new bootstrap.Carousel(document.querySelector('#recipeCarousel'));
+
+        document.querySelectorAll('.advice-link').forEach(link => {
+            link.addEventListener('click', () => {
+                carousel.pause();
+            });
+        });
+
+        document.querySelectorAll('.modal').forEach(modal => {
+            modal.addEventListener('hidden.bs.modal', () => {
+                carousel.cycle();
+            });
+        });
+    });
+</script>
 
