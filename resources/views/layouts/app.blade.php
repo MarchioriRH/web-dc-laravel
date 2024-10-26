@@ -23,12 +23,12 @@
     {{-- <link rel="stylesheet" type="text/css" href="{{ asset('css/eventFormStyle.css') }}" /> --}}
     {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> --}}
     <link rel="stylesheet" type="text/css" href="{{ asset('css/reset.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/service.css') }}" />
+    {{-- <link rel="stylesheet" type="text/css" href="{{ asset('css/service.css') }}" /> --}}
     <link rel="stylesheet" type="text/css" href="{{ asset('css/styles.css') }}" />
 </head>
 
 <body id="page-top">
-   
+
     <main>
         @yield('content')
         @include('modal.contact')

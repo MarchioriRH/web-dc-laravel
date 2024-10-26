@@ -8,14 +8,14 @@ body {
     color: #666666;
     font-weight: 400;
     font-size: 1rem;
-}
+}*/
 
-::selection {
+/* ::selection {
     background: #000;
     color: #fff;
-}
+} */
 
-a {
+/*a {
     -webkit-transition: 0.3s all ease;
     -o-transition: 0.3s all ease;
     transition: 0.3s all ease;
@@ -98,7 +98,7 @@ body:after {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 } */
-
+/*
 .site-section {
     padding: 2.5em 0;
 }
@@ -113,7 +113,7 @@ body:after {
 }
 
 /*PRELOADING------------ */
-#overlayer {
+/* #overlayer {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -136,7 +136,7 @@ body:after {
 }
 
 /* Navbar */
-.site-navbar {
+/* .site-navbar {
     margin-bottom: 0px;
     z-index: 1999;
     position: absolute;
@@ -503,10 +503,10 @@ body:after {
 .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-}
+}  */
 
 /* Blocks */
-.site-blocks-cover {
+/* .site-blocks-cover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -571,11 +571,11 @@ body:after {
 
 .position-relative {
     position: relative;
-}
+} */ */
 
 .service {
     padding: 30px;
-    background: #fff;
+    background: #d0cdcd;
     -webkit-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
     -webkit-transition: 0.3s all ease-in-out;
@@ -609,7 +609,7 @@ body:after {
     align-items: center;
 }
 
-.filters .btn {
+/* .filters .btn {
     border-color: transparent;
     font-size: 0.8rem;
     margin: 5px;
@@ -632,11 +632,11 @@ body:after {
     background: #c2e54f !important;
     color: #fff !important;
     border-color: #c2e54f !important;
-}
+} */
 
 /* Isotope Transitions
   ------------------------------- */
-.isotope,
+/* .isotope,
 .isotope .item {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
@@ -663,10 +663,10 @@ body:after {
     -o-transition-property: transform, opacity;
     transition-property: transform, opacity;
     transition-property: transform, opacity, -webkit-transform;
-}
+} */
 
 /* responsive media queries */
-.item {
+/* .item {
     border: none;
     margin-bottom: 30px;
     border-radius: 4px;
@@ -978,4 +978,4 @@ body:after {
 }
 .footer a:hover {
     color: #000;
-}
+} */

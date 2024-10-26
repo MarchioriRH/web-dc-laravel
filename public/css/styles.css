@@ -11583,7 +11583,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 /*-----------Contact Forma--------------*/
 body{
     /* margin-top:20px; */
-    background:#eee;
+    /* background:#eee; */
+    background: #9f9f9f;
 }
 .gradient-brand-color {
     background-image: -webkit-linear-gradient(0deg, #00049d80 0%, #ed6124 100%);
@@ -11647,6 +11648,10 @@ body{
     .carousel-inner .carousel-item > div:first-child {
         display: block;
     }
+
+    .d-flex {
+        flex-direction: column;
+    }
 }
 
 .carousel-inner .carousel-item.active,
@@ -11672,4 +11677,41 @@ body{
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start {
   transform: translateX(0);
+}
+
+/**********************SERVICE**************************/
+.service {
+    padding: 30px;
+    background: #d0cdcd;
+    -webkit-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    top: 0;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.service .svg-icon {
+    margin-right: 20px;
+}
+.service .svg-icon img {
+    width: 8rem;
+}
+.service:hover {
+    -webkit-box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.1);
+    top: -2px;
+}
+.service .service-about *:last-child {
+    margin-bottom: 0;
+}
+.service .service-about h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.service .service-about {
+    align-items: center;
 }

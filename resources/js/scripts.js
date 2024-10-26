@@ -70,16 +70,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-
-    // Carousel
-    // if (document.body.querySelector('#adviceCarousel')) {
-    //     let myCarouselElement = document.querySelector('#adviceCarousel');
-    //     const carousel = new bootstrap.Carousel(myCarouselElement, {
-    //         interval: 3000,
-    //         touch: false
-    //     });
-    // }
-
+    /**
+     * A NodeList of elements with the class 'carousel-item' within elements with the class 'carousel'.
+     * @type {NodeList}
+     */
     let items = document.querySelectorAll('.carousel .carousel-item')
 
     items.forEach((el) => {
@@ -109,8 +103,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const heading = event.currentTarget.getAttribute('data-heading');
             const subheading = event.currentTarget.getAttribute('data-subheading');
             const image = event.currentTarget.getAttribute('data-image');
-
-            console.log(heading, " ", subheading, " ", image);
 
             adviceModalLabel.textContent = heading;
             adviceModalImage.src = image;

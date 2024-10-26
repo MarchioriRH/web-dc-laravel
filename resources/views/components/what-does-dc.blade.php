@@ -4,14 +4,14 @@
     <div class="row">
         <div class="col-12 mb-5 position-relative text-center">
             <h2 class="section-heading text-uppercase">¿Que hace la Defensa Civil?</h2>
-            <h3 class="service-about text-muted">
+            <h3 class="service-about">
                 En la Defensa Civil nos dedicamos a la planificación, coordinación y ejecución de acciones
                 preventivas y operativas para la protección de la población en situaciones de emergencia o desastre.
                 Nuestro principal objetivo es salvaguardar la vida y los bienes de las personas, así como mitigar los efectos
                 de situaciones de riesgo o catástrofe.
             </h3>
             <br>
-            <h3 class="service-about text-muted">
+            <h3 class="service-about">
                 Nuestras principales tareas incluyen:
             </h3>
         </div>
@@ -60,7 +60,7 @@
                     <img src="{{ asset('images/svg/whatDo-011.svg') }}" alt="image" >
                 </div>
                 <div class="service-about w-100">
-                    <h3>Coordinación interinstitucional</h3>
+                    <h3>Coordinación</h3>
                     <p>Trabajamos en conjunto con fuerzas de seguridad, bomberos, servicios de salud, municipios, y otras organizaciones
                        tanto a nivel nacional como provincial para la coordinación efectiva de las acciones en desastres</p>
                 </div>

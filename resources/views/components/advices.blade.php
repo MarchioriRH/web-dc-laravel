@@ -19,12 +19,6 @@
                                             <h5>{{ $advice['heading'] }}</h5>
                                             <p>{{ $advice['subheading'] }}</p>
                                         </div>
-
-
-                                        {{-- <div class="advice-caption text-center">
-                                            <div class="advice-caption-heading">{{ $advice['heading'] }}</div>
-                                            <div class="advice-caption-subheading text-muted">{{ $advice['subheading'] }}</div>
-                                        </div> --}}
                                     </a>
                                 </div>
                             </div>
@@ -40,15 +34,6 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-
-
-
-            {{-- <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                <span class="" aria-hidden="true"><i class="bi bi-chevron-left"></i></span>
-            </a>
-            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                <span class="" aria-hidden="true"><i class="bi bi-chevron-right"></i></span>
-            </a> --}}
         </div>
     </div>
 </div>
