@@ -35,16 +35,22 @@
                                                 </li>
                                                 <li class="mb-4 pl-4">
                                                     <span class="position-absolute"><i class="fas fa-phone"></i></span>
-                                                    (249)-449 0327 / (249)-442 9547
+                                                    <span>Defensa Civil</span>
+                                                    <br>
+                                                    <span>+54 (249) 449 0327 / +54 (249) 442 9547</span>
+                                                    <br>
+                                                    <span>Asistencia a la Víctima </span>
+                                                    <br>
+                                                    <span>+54 (249) 460 9731 / +54 (249) 442 3206</span>
                                                 </li>
                                                 <li class="mb-4 pl-4">
                                                     <span class="position-absolute"><i
                                                             class="fas fa-map-marker-alt"></i></span>
-                                                    Belgrano 328
+                                                    Belgrano 338
                                                     <br> 7000 - Tandil
 
                                                     <div class="mt-3">
-                                                        <a href="https://www.google.com/maps/place/Belgrano+328,+B7000+Tandil,+Provincia+de+Buenos+Aires"
+                                                        <a href="https://www.google.com/maps/place/Belgrano+338,+B7000+Tandil,+Provincia+de+Buenos+Aires"
                                                             target="_blank"
                                                             class="text-link link--right-icon text-white">¿Como llegar?
                                                             <i class="link__icon fa fa-directions"></i></a>
@@ -108,7 +114,7 @@
                                                     </div>
                                                     <div class="col-sm-12 mb-3">
                                                         <div class="form-group">
-                                                            <label for="subject">Asunto:</label>
+                                                            <label for="subject">Asunto</label>
                                                             <select name="subject" id=""
                                                                 class="col-sm-12 mb-3 form-control">
                                                                 <option value="general" selected>General</option>

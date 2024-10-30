@@ -10,15 +10,13 @@ class DesktopController extends Controller
 {
     public function index()
     {
-        $news = News::all(); // O puedes usar paginate para paginación
-        //return view('news.index', compact('news'));
+        $news = News::all(); // O puedes usar paginate para paginación       
         $adviceJson = File::get(resource_path('data/advice.json'));
         $advices = json_decode($adviceJson, true);
         $adviceCarouselJson = File::get(resource_path('data/adviceCarousel.json'));
         $carouselImages = json_decode($adviceCarouselJson, true);
-        //dd($notices);
         return view('desktop', [
-            'notices' => $news,
+            'notices' => array_reverse($news->toArray()),
             'advices' => $advices,
             'carouselImages' => $carouselImages
         ]);

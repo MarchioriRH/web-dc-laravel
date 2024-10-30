@@ -3,24 +3,24 @@
 <div class="container">
     <div class="row">
         <div class="col-12 mb-5 position-relative text-center">
-            <h2 class="section-heading text-uppercase">¿Que hace la Defensa Civil?</h2>
-            <h3 class="service-about">
+            <h3 class="section-heading">¿Que hace la Defensa Civil?</h3>
+            <p class="what-does-about">
                 En la Defensa Civil nos dedicamos a la planificación, coordinación y ejecución de acciones
                 preventivas y operativas para la protección de la población en situaciones de emergencia o desastre.
                 Nuestro principal objetivo es salvaguardar la vida y los bienes de las personas, así como mitigar los efectos
                 de situaciones de riesgo o catástrofe.
-            </h3>
+            </p>
             <br>
-            <h3 class="service-about">
+            <p class="what-does-about">
                 Nuestras principales tareas incluyen:
-            </h3>
+            </p>
         </div>
         <div class="col-md-6 mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay>
-            <div class="service d-flex h-100">
+            <div class="what-does d-flex h-100">
                 <div class="svg-icon">
                     <img src="{{ asset('images/svg/whatDo-006.svg') }}" alt="image" >
                 </div>
-                <div class="service-about w-100">
+                <div class="what-does-about w-100">
                     <h3>Prevención y preparación</h3>
                     <p>Realizamos campañas de concientización y educación pública sobre cómo actuar ante
                        emergencias (inundaciones, terremotos, incendios, etc.), como asi tambien para prevenir
@@ -29,11 +29,11 @@
             </div>
         </div>
         <div class="col-md-6 mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay>
-            <div class="service d-flex h-100">
+            <div class="what-does d-flex h-100">
                 <div class="svg-icon">
                     <img src="{{ asset('images/svg/whatDo-002.svg') }}" alt="image" >
                 </div>
-                <div class="service-about w-100">
+                <div class="what-does-about w-100">
                     <h3>Respuesta a emergencias</h3>
                     <p>Somos los encargados de coordinar la actuación de distintos actores y cuerpos de seguridad y rescate
                        (bomberos, policías, servicios médicos, servicios públicos, servicios de asistencia, etc.) ante emergencias, tanto
@@ -43,11 +43,11 @@
             </div>
         </div>
         <div class="col-md-6 mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay>
-            <div class="service d-flex h-100">
+            <div class="what-does d-flex h-100">
                 <div class="svg-icon">
                     <img src="{{ asset('images/svg/whatDo-005.svg') }}" alt="image" >
                 </div>
-                <div class="service-about w-100">
+                <div class="what-does-about w-100">
                     <h3>Rescate y asistencia</h3>
                     <p>Intervenimos en la evacuación de personas en peligro y en caso de ser necesario se proporciona asistencia
                        a las víctimas, incluyendo refugio, alimento y primeros auxilios.</p>
@@ -55,11 +55,11 @@
             </div>
         </div>
         <div class="col-md-6 mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay>
-            <div class="service d-flex h-100">
+            <div class="what-does d-flex h-100">
                 <div class="svg-icon">
                     <img src="{{ asset('images/svg/whatDo-011.svg') }}" alt="image" >
                 </div>
-                <div class="service-about w-100">
+                <div class="what-does-about w-100">
                     <h3>Coordinación</h3>
                     <p>Trabajamos en conjunto con fuerzas de seguridad, bomberos, servicios de salud, municipios, y otras organizaciones
                        tanto a nivel nacional como provincial para la coordinación efectiva de las acciones en desastres</p>
@@ -67,11 +67,11 @@
             </div>
         </div>
         <div class="col-md-6 mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay>
-            <div class="service d-flex h-100">
+            <div class="what-does d-flex h-100">
                 <div class="svg-icon">
                     <img src="{{ asset('images/svg/whatDo-009.svg') }}" alt="image" >
                 </div>
-                <div class="service-about w-100">
+                <div class="what-does-about w-100">
                     <h3>Evaluación y rehabilitación</h3>
                     <p>Después de una emergencia, nos encargamos de evaluar los daños y organizar el proceso de rehabilitación
                        y reconstrucción de las zonas afectadas en conjunto con las areas municipales que cuentan con
@@ -80,11 +80,11 @@
             </div>
         </div>
         <div class="col-md-6 mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay>
-            <div class="service d-flex h-100">
+            <div class="what-does d-flex h-100">
                 <div class="svg-icon">
                     <img src="{{ asset('images/svg/whatDo-008.svg') }}" alt="image" >
                 </div>
-                <div class="service-about w-100">
+                <div class="what-does-about w-100">
                     <h3>Vigilancia del clima</h3>
                     <p>Con la colaboracion de distintos organismos mantenemos un monitoreo
                        permamanente de la situacion climatica y de los eventos naturales que
@@ -96,11 +96,11 @@
             </div>
         </div>
         <div class="col-md-6 mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay>
-            <div class="service d-flex h-100">
+            <div class="what-does d-flex h-100">
                 <div class="svg-icon">
                     <img src="{{ asset('images/svg/whatDo-010.svg') }}" alt="image" >
                 </div>
-                <div class="service-about w-100">
+                <div class="what-does-about w-100">
                     <h3>Gestión de recursos en emergencias</h3>
                     <p>Nos encargamos de organizar y distribuir recursos como agua, alimentos, medicamentos y refugios temporales
                        para las personas afectadas por desastres.</p>
@@ -108,11 +108,11 @@
             </div>
         </div>
         <div class="col-md-6 mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay>
-            <div class="service d-flex h-100">
+            <div class="what-does d-flex h-100">
                 <div class="svg-icon">
                     <img src="{{ asset('images/svg/whatDo-004.svg') }}" alt="image" >
                 </div>
-                <div class="service-about w-100">
+                <div class="what-does-about w-100">
                     <h3>Apoyo a otras emergencias no convencionales</h3>
                     <p>En colaboración con el sistema de salud, y ante su requerimiento, podemos actuar en situaciones de emergencia sanitaria,
                        como brotes de enfermedades, epidemias o pandemias, organizando la respuesta logística y apoyo comunitario. Tambien

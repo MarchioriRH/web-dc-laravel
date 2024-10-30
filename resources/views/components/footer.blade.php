@@ -11,6 +11,15 @@
                     Página oficial de la Dirección de Defensa Civil y Asistencia a la
                     Víctima de Tandil.
                 </p>
+                <p>
+                    Belgrano 338, Tandil, Buenos Aires, Argentina
+                </p>
+                <div class="mt-3">
+                    <a href="https://www.google.com/maps/place/Belgrano+338,+B7000+Tandil,+Provincia+de+Buenos+Aires"
+                        target="_blank"
+                        class="text-reset link--right-icon">¿Como llegar?
+                        <i class="link__icon fa fa-directions"></i></a>
+                </div>
             </div>
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 class="text-uppercase fw-bold mb-4">Secciones</h6>
@@ -46,11 +55,15 @@
             </div>
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
-                <p>Tandil, 7000, ARG</p>
-                <p>defensacivil&#64;tandil.gob.ar</p>
+                <p>Defensa Civil</p>
+                <p>defensacivil&#64;tandil.gov.ar</p>
                 <p>defensa.civil.tandil&#64;gmail.com</p>
                 <p>+ 54 249 449 0357</p>
                 <p>+ 54 249 442 9547</p>
+                <br>
+                <p>Asistencia a la Víctima</p>
+                <p>+ 54 249 460 9731</p>
+                <p>+ 54 249 442 3206</p>
             </div>
         </div>
 

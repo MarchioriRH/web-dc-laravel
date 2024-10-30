@@ -10,7 +10,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0" id="navbar-list-ul">
-                <li class="nav-item dropdown links-dropdown-list">
+                {{-- <li class="nav-item dropdown links-dropdown-list">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Secciones
@@ -32,7 +32,31 @@
                             <a class="dropdown-item text-uppercase ms-auto py-4 py-lg-0"
                                 href="#que-hace-la-dc">¿Que hace la DC?</a>
                         </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase ms-auto py-4 py-lg-0"
+                                href="#que-hace-av">¿Que hace Asitencia a la Víctima?</a>
+                        </li>
                     </ul>
+                </li> --}}
+                <li class="nav-item">
+                    <a class="nav-link"
+                                href="#el-tiempo">El tiempo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                                href="#noticias">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                                href="#consejos">Consejos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                                href="#que-hace-la-dc">¿Que hace la DC?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                                href="#que-hace-av">¿Que es Asitencia a la Víctima?</a>
                 </li>
                 <li class="nav-item dropdown links-dropdown-list">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"

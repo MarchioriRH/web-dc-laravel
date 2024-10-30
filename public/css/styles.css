@@ -62,7 +62,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #e3e3e3;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -11584,7 +11584,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 body{
     /* margin-top:20px; */
     /* background:#eee; */
-    background: #9f9f9f;
+    background: var(--bs-body-bg)
 }
 .gradient-brand-color {
     background-image: -webkit-linear-gradient(0deg, #00049d80 0%, #ed6124 100%);
@@ -11679,8 +11679,8 @@ body{
   transform: translateX(0);
 }
 
-/**********************SERVICE**************************/
-.service {
+/**********************what-does**************************/
+.what-does {
     padding: 30px;
     background: #d0cdcd;
     -webkit-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
@@ -11693,25 +11693,25 @@ body{
     align-items: center;
     text-align: center;
 }
-.service .svg-icon {
+.what-does .svg-icon {
     margin-right: 20px;
 }
-.service .svg-icon img {
+.what-does .svg-icon img {
     width: 8rem;
 }
-.service:hover {
+.what-does:hover {
     -webkit-box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.1);
     top: -2px;
 }
-.service .service-about *:last-child {
+.what-does .what-does-about *:last-child {
     margin-bottom: 0;
 }
-.service .service-about h3 {
+.what-does .what-does-about h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
 
-.service .service-about {
+.what-does .what-does-about {
     align-items: center;
 }
