@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div>
-        <a class="navbar-brand" href="home"><img src="{{ asset('images/dc-logo.png') }}" alt="..." /></a>
+        <a class="navbar-brand" href="home"><img src="{{ asset('images/dc-logo.png') }}" alt="Logo Defensa Civil" /></a>
     </div>
     <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
@@ -58,12 +58,18 @@
                     <a class="nav-link"
                                 href="#que-hace-av">¿Que es Asitencia a la Víctima?</a>
                 </li>
+                <li class="nav-item" id="contact">
+                    <a class="nav-link" href="/descargas">Descargas</a>
+                </li>
+                <li class="nav-item" id="contact">
+                    <a class="nav-link" data-bs-toggle="modal" href="#contactModal">Contacto</a>
+                </li>
                 <li class="nav-item dropdown links-dropdown-list">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         Links de interes
                     </a>
-                    <ul class="dropdown-menu text-uppercase ms-auto py-4 py-lg-0 links-dropdown">
+                    <ul class="dropdown-menu text-uppercase ms-auto py-4 py-lg-0 links-dropdown dropdown-menu-right">
                         <li>
                             <a class="dropdown-item text-uppercase ms-auto py-4 py-lg-0"
                                 href="https://tandil.gob.ar" target="_blank">Municipalidad de Tandil</a>
@@ -81,9 +87,6 @@
                                 href="https://mapa.tandil.gov.ar" target="_blank">IDE Tandil</a>
                         </li>
                     </ul>
-                </li>
-                <li class="nav-item" id="contact">
-                    <a class="nav-link" data-bs-toggle="modal" href="#contactModal">Contacto</a>
                 </li>
             </ul>
         </div>

@@ -3944,7 +3944,8 @@ textarea.form-control-lg {
   flex-wrap: inherit;
   align-items: center;
   justify-content: right;
-  /*margin-right: 10rem;*/
+  text-align: center;
+  margin-left: 12rem;
 }
 .navbar-brand {
   padding-top: 0.2rem;

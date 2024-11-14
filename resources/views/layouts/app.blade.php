@@ -32,6 +32,7 @@
     <main>
         @yield('content')
         @include('modal.contact')
+        {{-- @include('download.index') --}}
         {{-- @include('news.create') --}}
     </main>
 

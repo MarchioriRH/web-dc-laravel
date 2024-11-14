@@ -1,7 +1,7 @@
 <section id="que-have-av" class="features section">
     <!-- Section Title -->
     <div class="container section-title text-center aos-init aos-animate" data-aos="fade-up">
-        <h2>Asistencia a la Víctima</h2>
+        <h2>¿Que es asistencia a la víctima?</h2>
         <p style="margin-top: 5rem;">
         Asistencia a la Víctima conforma un espacio que provee de un servicio de atención a víctimas de diferentes delitos y conflictos,
         como tambén a personas afectadas por eventos meteorológicos (lluvias, vientos) o incendios, estos últimos en coordinación
