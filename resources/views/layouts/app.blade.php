@@ -7,6 +7,10 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Defensa Civil Tandil</title>
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href={{ asset('favicon.ico') }} />
     <!-- Font Awesome icons (free version)-->
@@ -25,6 +29,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/reset.css') }}" />
     {{-- <link rel="stylesheet" type="text/css" href="{{ asset('css/service.css') }}" /> --}}
     <link rel="stylesheet" type="text/css" href="{{ asset('css/styles.css') }}" />
+
+    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 
 <body id="page-top">

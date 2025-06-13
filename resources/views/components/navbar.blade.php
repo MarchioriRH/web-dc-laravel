@@ -58,7 +58,7 @@
                     <a class="nav-link"
                                 href="#que-hace-av">¿Que es Asitencia a la Víctima?</a>
                 </li>
-                <li class="nav-item" id="contact">
+                <li class="nav-item" id="download">
                     <a class="nav-link" href="/descargas">Descargas</a>
                 </li>
                 <li class="nav-item" id="contact">
@@ -88,6 +88,21 @@
                         </li>
                     </ul>
                 </li>
+                @if(Auth::user()) 
+                    <li class="nav-item" id="logout">
+                        {{-- <a class="nav-link" href="{{route('logout')}}">Salir</a> --}}
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
+                        <a class="nav-link" href="/home" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                            Cerrar sesión
+                        </a>
+                    </li>
+                @else 
+                    <li class="nav-item" id="login">
+                        <a class="nav-link" href="{{route('login')}}">Ingresar</a>
+                    </li>
+                @endif
             </ul>
         </div>
     </div>
