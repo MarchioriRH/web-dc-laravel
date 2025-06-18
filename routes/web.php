@@ -7,7 +7,7 @@ use App\Http\Controllers\NewsController;
 use App\Http\Controllers\DownloadController;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\UserController;
-use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\EventsController;
 
 // Route::get('/home', function () {
 //     return view('welcome');
@@ -22,7 +22,9 @@ Route::get('/descargas', [DownloadController::class, 'index'])->name('download.i
 Route::middleware(['auth'])->group(function () {
     Route::get('/perfil', [UserController::class, 'profile']);
     Route::get('/usuarios', [UserController::class, 'index']);
-    Route::post('/nuevo_registro', [RegisterController::class, 'create'])->name('nuevo_registro');
+    Route::get('/nuevo-registro', [EventsController::class, 'create'])->name('registers.create');
+    
+    Route::post('/nuevo_registro', [EventsController::class, 'store'])->name('registers.store');
     Route::get('/hidden/add-news', [NewsController::class, 'create'])->name('news.create');
     Route::post('/hidden/add-news', [NewsController::class, 'store'])->name('news.store');
 });

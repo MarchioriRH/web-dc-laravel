@@ -3,8 +3,7 @@
 @section('content')
 <div class="container mt-10">
     <h1 class="mb-4">Lista de Usuarios</h1>
-    <div class="mx-auto p-2" style="width: 200px;"><a type="button" href="{{route('nuevo_registro')}}">Nuevo registro</a></div>
-    
+    <div class="mx-auto p-2" style="width: 200px;"><a type="button" href={{route('registers.create')}}>Nuevo registro</a></div>
     <table class="table table-bordered">
         <thead>
             <tr>
