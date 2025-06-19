@@ -82,20 +82,35 @@ class EventsController extends Controller
                 'localidad.required' => 'La localidad es obligatoria.',
                 'descripcion.required' => 'La descripción es obligatoria.',
                 'causa.required' => 'La causa es obligatoria.',
+                'valores.required' => 'Los valores son obligatorios.',
+                'evacuadas_si_no.required' => 'Debe indicar si hay evacuadas.',
+                'heridas_si_no.required' => 'Debe indicar si hay heridas.',
+                'perdidas_si_no.required' => 'Debe indicar si hay pérdidas.',
+                'fallecidas_si_no.required' => 'Debe indicar si hay fallecidos.',
+                'viviendas_afectadas_si_no.required' => 'Debe indicar si hay viviendas afectadas.',
+                'danos_estructuras_si_no.required' => 'Debe indicar si hay daños en estructuras.',
+                'voladura_techos_si_no.required' => 'Debe indicar si hay voladura de techos.',
+                'inundacion_urbano.required' => 'Debe indicar si hay inundación urbana.',
+                'inundacion_rural.required' => 'Debe indicar si hay inundación rural.',
+                'postes_caidos_si_no.required' => 'Debe indicar si hay postes caídos.',
+                'arboles_caidos_si_no.required' => 'Debe indicar si hay árboles caídos.',
+                'ramas_caidas_si_no.required' => 'Debe indicar si hay ramas caídas.',
+                'cables_caidos_si_no.required' => 'Debe indicar si hay cables caídos.',
+                'carteles_si_no.required' => 'Debe indicar si hay carteles afectados.',
+                'calles_cortadas_si_no.required' => 'Debe indicar si hay calles cortadas.',
+                'luz_si_no.required' => 'Debe indicar si hay corte de luz.',
+                'agua_si_no.required' => 'Debe indicar si hay corte de agua.',
+                'telefonos_si_no.required' => 'Debe indicar si hay corte de teléfonos.',
+                'transporte_si_no.required' => 'Debe indicar si hay problemas de transporte.',
             ]
         );
         
-        // dd($request->all()); // Debugging line to check the request data
-
         // Create a new register (this is just an example, adjust according to your model)
         Event::create($validated);
-        
+        // Log the creation of the new register
         Log::info('New register created', ['data' => $request->all()]);
         // Redirect back with a success message
-        return redirect()->back()->with('success', 'Reporte creado exitosamente.');
-        // You might also want to redirect to a different route or return a JSON response
-        // return response()->json(['message' => 'Registro creado exitosamente.']);
-        // Adjust the response according to your application's needs    
+        return redirect()->back()->with('success', 'Reporte creado exitosamente.');        
     }
 
     /**

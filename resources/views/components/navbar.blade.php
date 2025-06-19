@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top " id="mainNav">
     <div>
         <a class="navbar-brand" href="home"><img src="{{ asset('images/dc-logo.png') }}" alt="Logo Defensa Civil" /></a>
     </div>

@@ -8,6 +8,7 @@ use App\Http\Controllers\DownloadController;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\EventsController;
+use App\Http\Controllers\ControlPanelController;
 
 // Route::get('/home', function () {
 //     return view('welcome');
@@ -21,7 +22,8 @@ Route::get('/descargas', [DownloadController::class, 'index'])->name('download.i
 
 Route::middleware(['auth'])->group(function () {
     Route::get('/perfil', [UserController::class, 'profile']);
-    Route::get('/usuarios', [UserController::class, 'index']);
+    Route::get('/usuarios', [UserController::class, 'index'])->name('users.index');
+    Route::get('control-panel', [ControlPanelController::class, 'index'])->name('control-panel.index');
     Route::get('/nuevo-registro', [EventsController::class, 'create'])->name('registers.create');
     
     Route::post('/nuevo_registro', [EventsController::class, 'store'])->name('registers.store');
